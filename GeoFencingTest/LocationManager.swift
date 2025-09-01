@@ -11,8 +11,8 @@ class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     @Published var currentLocation: CLLocationCoordinate2D?
     
     // 東京駅の座標
-//    let geofenceCenter = CLLocationCoordinate2D(latitude: 35.681236, longitude: 139.767125)
-    let geofenceCenter = CLLocationCoordinate2D(latitude: 36.37504, longitude: 140.40857)
+    // let geofenceCenter = CLLocationCoordinate2D(latitude: 35.681236, longitude: 139.767125)
+    let geofenceCenter = CLLocationCoordinate2D(latitude: /* Set Latitude */, longitude: /* Set Longitude */)
 
     override init() {
         super.init()
